@@ -6,7 +6,7 @@ ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 image::atolcdLogo.png[Atol CD logo]
 image::depPopulation.png[SVG Component main image]
 
-* <<Introduction%20to%20SVG%20Component{outfilesuffix},Introduction to SVG Component>>
+* <<Introduction%20to%20SVG%20Component{outfilesuffix}#,Introduction to SVG Component>>
 * <<SVG%20Component%20installation{outfilesuffix},SVG Component installation>>
 * <<Standard%20properties{outfilesuffix},Standard properties>>
 * <<Signature%20properties{outfilesuffix},Signature properties>>
