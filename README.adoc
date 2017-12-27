@@ -1,8 +1,3 @@
-= SVG Component Documentation
-
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
---
-include::Table%20of%20Contents{outfilesuffix}
-include::test{outfilesuffix}
---
+include::Table%20of%20contents{outfilesuffix}[]
