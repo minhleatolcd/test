@@ -5,9 +5,9 @@ ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 :sectnums:
 
-<<../Table%20of%20contents{outfilesuffix},Back to main index>>
+<<../README{outfilesuffix}#,Back to main index>>
 
-<<../Original%20features{outfilesuffix},Back to Original features>>
+<<../Original%20features{outfilesuffix}#,Back to Original features>>
 
 '''
 

@@ -2,7 +2,7 @@
 
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
-<<Table%20of%20contents{outfilesuffix},Back to main index>>
+<<README{outfilesuffix}#,Back to main index>>
 
 '''
 

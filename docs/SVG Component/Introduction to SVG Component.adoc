@@ -4,7 +4,7 @@ ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 :sectnums:
 
-<<Table%20of%20contents{outfilesuffix},Back to main index>>
+<<README{outfilesuffix}#,Back to main index>>
 
 '''
 
@@ -22,11 +22,11 @@ While this solution remains flexible and highly customizable, it should be repla
 
 We decided to create a specific CDE component for SVG contents, as the *SVG standard* provides numerous advantages for our cartographic dashboards:
 
-* [*] Free, open, standardized, human and machine readable format for vector graphics.
-* [*] Easy to create using *Inkscape* or any text editor.
-* [*] Supported by all major web browsers.
-* [*] Shapes are well preserved while scaling vector images.
-* [*] Interactive and animated behaviors are defined and can be manipulated.
+[*] Free, open, standardized, human and machine readable format for vector graphics.
+[*] Easy to create using *Inkscape* or any text editor.
+[*] Supported by all major web browsers.
+[*] Shapes are well preserved while scaling vector images.
+[*] Interactive and animated behaviors are defined and can be manipulated.
 
 == Cartographic knowledge
 
@@ -54,4 +54,4 @@ The values represented by the colorization of the graphic might be *numeric* (qu
 
 *Data analysis* can be separated into 2 types: *formula-based calculation* and *statistical analysis*. The former should be done beforehand, directly inside the related query for example, for each data record; while the latter will be done later, when the data arrive and form a series, on which statistical methods can be applied and data will be classified into legend groups.
 
-The SVG Component incorporates several extra features, which will be described in a <<Original%20features{outfilesuffix},dedicated section>>.
+The SVG Component incorporates several extra features, which will be described in a <<Original%20features{outfilesuffix}#,dedicated section>>.
