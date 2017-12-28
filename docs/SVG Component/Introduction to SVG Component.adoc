@@ -22,11 +22,11 @@ While this solution remains flexible and highly customizable, it should be repla
 
 We decided to create a specific CDE component for SVG contents, as the *SVG standard* provides numerous advantages for our cartographic dashboards:
 
-[*] Free, open, standardized, human and machine readable format for vector graphics.
-[*] Easy to create using *Inkscape* or any text editor.
-[*] Supported by all major web browsers.
-[*] Shapes are well preserved while scaling vector images.
-[*] Interactive and animated behaviors are defined and can be manipulated.
+* [*] Free, open, standardized, human and machine readable format for vector graphics.
+* [*] Easy to create using *Inkscape* or any text editor.
+* [*] Supported by all major web browsers.
+* [*] Shapes are well preserved while scaling vector images.
+* [*] Interactive and animated behaviors are defined and can be manipulated.
 
 == Cartographic knowledge
 

@@ -3,6 +3,13 @@
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 :imagesdir: ../images
 
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :heavy_exclamation_mark:
+:warning-caption: :warning:
+endif::[]
+
 :sectnums:
 
 <<../README{outfilesuffix}#,Back to main index>>

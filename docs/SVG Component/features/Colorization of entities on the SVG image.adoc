@@ -2,6 +2,13 @@
 
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :heavy_exclamation_mark:
+:warning-caption: :warning:
+endif::[]
+
 <<../README{outfilesuffix}#,Back to main index>>
 
 <<../Original%20features{outfilesuffix}#,Back to Original features>>

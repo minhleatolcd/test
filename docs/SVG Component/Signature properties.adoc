@@ -2,6 +2,13 @@
 
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :heavy_exclamation_mark:
+:warning-caption: :warning:
+endif::[]
+
 <<README{outfilesuffix}#,Back to main index>>
 
 '''
@@ -13,7 +20,7 @@ Below are the signature properties that were specifically developed for SVG Comp
 |Property|Input type|Output type|Utility
 
 |SVG file
-|[red]#*SvgFile*#
+|*SvgFile*
 |String
 |Indicate the path to the SVG file stored in Pentaho repository.
 
@@ -33,7 +40,7 @@ Below are the signature properties that were specifically developed for SVG Comp
 |Ratio of the displayed SVG image and its original image (in %).
 
 |Legend
-|[red]#*Legend*#
+|*Legend*
 |Array
 |Array containing all necessary information for the representation of the legend (items, limits, colors).
 
@@ -58,7 +65,7 @@ Below are the signature properties that were specifically developed for SVG Comp
 |Indicate whether the dynamic selectors will be displayed.
 
 |indicatorMapping
-|[red]#*IndicatorMappingArray*#
+|*IndicatorMappingArray*
 |Array
 |Indicate the indicators and their corresponding datasources.
 
@@ -75,7 +82,7 @@ Below are the signature properties that were specifically developed for SVG Comp
 
 {empty} +
 
-As you probably know, the number of property output types is quite small, whereas a considerable number of property input types already exist, and developers are free to conceive new input types. Therefore, we have developed 3 new input types for the 3 properties that require non-existent input modes: *SvgFile*, *Legend* and *IndicatorMappingArray* (marked in bold red in the above table).
+As you probably know, the number of property output types is quite small, whereas a considerable number of property input types already exist, and developers are free to conceive new input types. Therefore, we have developed 3 new input types for the 3 properties that require non-existent input modes: *SvgFile*, *Legend* and *IndicatorMappingArray* (marked in bold in the above table).
 
 NOTE: The majority of these signature properties do not need a specific default value. Nevertheless, we set the “*Ratio*” property at *100* by default, in order to bring clarity to users. Also, the properties “*dynamicSelectorsEnabled*”, “*zoomEnabled*” and “*exportButtonEnabled*” are set at “*False*” by default, so that the corresponding features will not be activated without user intention and willingness, and that SVG Component presents only its core features in a general context.
 
