@@ -2,18 +2,27 @@
 
 ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :heavy_exclamation_mark:
+:warning-caption: :warning:
+endif::[]
+
 <<README{outfilesuffix}#,Back to main index>>
 
 '''
 
-CDE already contains a fairly large number of standard and generic properties. By making use of several standard properties, SVG Component provides fundamental functions of a basic CDE component. Note that although the input and storage modes of each property are constrained by its associated input and output types, the logic behind it might be different from one component to another, for its behaviors are freely defined inside the JS files of the components.
+CDE already contains a fairly large number of standard and generic properties. By making use of several standard properties, SVG Component provides fundamental functions of a basic CDE component.
+
+NOTE: Although the input and storage modes of each property are constrained by its associated input and output types, the logic behind it might be different from one component to another, for its behaviors are freely defined inside components' JS files.
 
 [cols="2,8"]
 |===
 |Property|Utility
 
 |Title
-|Can be used as the title of the SVG graphic.
+|Can be used as title of the SVG graphic.
 
 |Parameter
 |Indicate the parameter whose value will be modified by this component.
@@ -52,7 +61,7 @@ CDE already contains a fairly large number of standard and generic properties. B
 |Information to display when hovering over this component.
 
 |clickAction
-|Callback function, to which data returned by the associated query and related to the clicked entity is passed, that is executed when the user click on an entity of the SVG image.
+|Callback function, to which data returned by the associated query and related to the clicked entity is passed, that is executed when the user clicks on an entity of the SVG image.
 
 |legendClickMode
 |Indicate the behavior of the component on clicking on legend items, depending on the selected option.

@@ -84,7 +84,7 @@ Below are the signature properties that were specifically developed for SVG Comp
 
 As you probably know, the number of property output types is quite small, whereas a considerable number of property input types already exist, and developers are free to conceive new input types. Therefore, we have developed 3 new input types for the 3 properties that require non-existent input modes: *SvgFile*, *Legend* and *IndicatorMappingArray* (marked in bold in the above table).
 
-NOTE: The majority of these signature properties do not need a specific default value. Nevertheless, we set the “*Ratio*” property at *100* by default, in order to bring clarity to users. Also, the properties “*dynamicSelectorsEnabled*”, “*zoomEnabled*” and “*exportButtonEnabled*” are set at “*False*” by default, so that the corresponding features will not be activated without user intention and willingness, and that SVG Component presents only its core features in a general context.
+NOTE: The majority of these signature properties do not need a specific default value. Nevertheless, we set the “*Ratio*” property at *100* by default, in order to bring clarity to users. Also, the “*dynamicSelectorsEnabled*”, “*zoomEnabled*” and “*exportButtonEnabled*” properties are set at “*False*” by default, so that the corresponding features will not be activated without user intention and willingness, and that SVG Component presents only its core features in a general context.
 
 {empty} +
 

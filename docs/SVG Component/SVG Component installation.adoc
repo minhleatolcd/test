@@ -17,14 +17,14 @@ endif::[]
 
 == Prerequisites
 
-Below are the prerequisites for the SVG Component:
+Below are the prerequisites for SVG Component:
 
 * An operational *Pentaho BI Platform* (preferably version *6.0* or higher).
 * *CTools (CDA, CDF, CDE)* and *Pentaho Marketplace* already installed. These Pentaho plug-ins are installed by default in Pentaho 6.0 and above.
 
 == Plug-in content
 
-The SVG Component is included inside the Pentaho plug-in *atolcd*, and contains:
+SVG Component is included inside the Pentaho plug-in *atolcd*, and contains:
 
 * *“component.xml”*: the XML metadata file describing the structure of the editor HTML page to be built by Pentaho server and to be rendered by browsers for this specific component.
 * *“SVGComponent.js”* and *“SVG.js”*: the JavaScript files defining all behaviors of the component and how it will be rendered in CDE dashboards.
@@ -45,7 +45,7 @@ Above is the standard installation process for Pentaho 6.0 and above, and Requir
 
 IMPORTANT: Atol CD input types inclusion is compulsory, otherwise you will not be able to input information into the 3 properties “*SVG file*”, “*Legend*” and “*indicatorMapping*”. Input types are JavaScript objects defining the way data are input into properties. Each property is associated with exactly one input type, but each input type can be associated with many properties. The association between properties and input types is described in “*component.xml*”.
 
-IMPORTANT: Browser’s cache clearing and Pentaho server restart are also compulsory. The restart will allow Pentaho server to identify the new plug-in *atolcd* and to render the new *SVG Component*. Major browsers often store JS and CSS files in their cache so that data can be served faster in the future. Therefore, cache clearing will force browsers to update the CDE interface with the new SVG Component. These two actions will also help updating an old version of SVG Component.
+IMPORTANT: Browser’s cache clearing and Pentaho server restart are also compulsory. The restart will allow Pentaho server to identify the new plug-in *atolcd* and to render the new *SVG Component*. Major browsers often store JS and CSS files in their cache so that data can be served faster in the future. Therefore, cache clearing will force browsers to update CDE interface with the new SVG Component. These two actions will also help updating an old version of SVG Component.
 
 NOTE: We have tested this installation process on *Pentaho 5.x*. You will need to install the specific and corresponding version of SVG Component for Pentaho 5.x, containing some minor changes compared to its standard version. Also, you cannot properly open the installation page of atolcd plug-in (incompatibilities with old versions of Pentaho). Thus, you have to manually include Atol CD input types, by opening the file */pentaho-solutions/system/pentaho-cdf-dd/editor.includes.properties* and add the path to the JS file containing these input types: “*../atolcd/js/cdf-dd-components-atolcd.js,*” at the end of the line “*scripts=[...]*”.
 
@@ -65,6 +65,6 @@ There is another way to deploy SVG Component without installing the plug-in *ato
 
 . Go to the *https://github.com/atolcd/pentaho-cde-atolcd-plugins[GitHub page]* of the plug-in *atolcd* and download its latest version (as a compressed file).
 . Extract the downloaded file, then compress the folder */atolcd/resources/components/SVG* as a ZIP file.
-. Start Pentaho server, upload the ZIP file to the folder *Public/cde/components* in the Pentaho repository (if you cannot find it, menu *View > Show Hidden Files*).
+. Start Pentaho server, upload the ZIP file to the folder *Public/cde/components* in Pentaho repository (if you cannot find it, menu *View > Show Hidden Files*).
 . Copy the file *cdf-dd-components-atolcd.js* to */pentaho-cdf-dd/js*, manually change the file *editor.includes.properties* as above (now with “*js/cdf-dd-components-atolcd.js,*”).
 . Clear browser’s cache, restart Pentaho server.
