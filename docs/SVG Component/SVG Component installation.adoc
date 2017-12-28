@@ -33,7 +33,7 @@ SVG Component is included inside the Pentaho plug-in *atolcd*, and contains:
 
 == Installation instructions
 
-SVG Component is a *CDE component* and a plug-in conceived for *CDE*, whereas CDE itself is a plug-in of *Pentaho BI Platform*. In order to install the SVG Component on CDE and Pentaho, you should complete the following steps:
+SVG Component is a *CDE component* and a plug-in conceived for *CDE*, whereas CDE itself is a plug-in of *Pentaho BI Platform*. In order to install SVG Component on CDE and Pentaho, you should complete the following steps:
 
 . *Install the Pentaho plug-in atolcd:* start Pentaho BI Server and open it in a browser; search for the plug-in *atolcd* in Pentaho Marketplace and install its latest version; clear browser’s cache and restart Pentaho server.
 . *Include Atol CD input types:* reopen Pentaho in browser; open the installation page of *atolcd* plug-in (menu *Tools > Atol CD Plugins*); click on the button “*Click here to finish plugin installation*”; clear browser’s cache and restart Pentaho server.
