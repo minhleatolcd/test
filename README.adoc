@@ -1,3 +1,0 @@
-ifdef::env-github,env-browser[:outfilesuffix: .adoc]
-
-include::Table%20of%20contents{outfilesuffix}[]
